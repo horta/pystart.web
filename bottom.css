@@ -1,0 +1,22 @@
+section#bottom {
+    background-color: #34485D;
+    color: #F6F6F6;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+section#bottom a {
+    color: #0377FA;
+    text-decoration: none;
+}
+
+section#bottom a:hover:not(.active) {
+    text-decoration: underline;
+    color: #0377FA;
+}
+
+section#bottom a:visited {
+    color: #0377FA;
+}

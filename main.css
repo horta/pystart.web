@@ -1,0 +1,70 @@
+/* CSS Document */
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+img.logo {
+    width: 200px;
+}
+
+body {
+    background-color: #F6F6F6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 100px 0;
+    margin: 0;
+}
+
+section#usage {}
+
+section#features {}
+
+section#acknowledgment {}
+
+section h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    text-align: center;
+}
+
+section ul {
+    font-size: 30px;
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    line-height: 1.3;
+}
+
+section a {
+    text-decoration: none;
+}
+
+section.blue {
+    background-color: #2299D3;
+    color: #F6F6F6;
+}
+
+section.blue a {
+    color: #F6F6F6;
+}
+
+section.blue a:hover:not(.active) {
+    text-decoration: none;
+    color: #C0C0C0;
+}
+
+section.blue a:visited {
+    color: #F6F6F6;
+}

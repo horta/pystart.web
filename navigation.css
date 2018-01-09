@@ -1,0 +1,38 @@
+#navigation {
+    margin: 30px auto;
+    max-width: 1100px;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navigation li.logo {
+    float: left;
+}
+
+#navigation li.logo a {
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+    float: right;
+}
+
+#navigation a {
+    font-weight: 500;
+    display: block;
+    color: #6F6F6F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navigation a:hover {
+    color: #0b0b0b;
+    text-decoration: none;
+}
