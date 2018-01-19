@@ -49,6 +49,7 @@ section ul {
 
 section a {
     text-decoration: none;
+    color: blue;
 }
 
 section.blue {
@@ -67,4 +68,5 @@ section.blue a:hover:not(.active) {
 
 section.blue a:visited {
     color: #F6F6F6;
+    color: red;
 }
